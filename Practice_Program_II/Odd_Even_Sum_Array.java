@@ -11,6 +11,8 @@ public class Odd_Even_Sum_Array {
         System.out.print("Enter how many elements do you want: ");
         no = sc.nextInt();
 
+        sc.close();
+
         int arr[] = new int[no];
 
         for (i = 0; i < arr.length; i++) {
@@ -29,7 +31,6 @@ public class Odd_Even_Sum_Array {
         System.out.println("Even: " + Ecount);
         System.out.println("Odd: " + Ocount);
 
-        sc.close();
     }
 
 }
